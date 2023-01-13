@@ -1,6 +1,6 @@
-# GPT-Diff-Explainer
+# What the Diff
 
-A Chrome extension that connects to ChatGPT to provide a summary explanation and code review suggestions for pull requests on GitHub.
+Written with ChatGPT, A Chrome extension that connects to ChatGPT to provide a summary explanation and code review suggestions for pull requests on GitHub.
 
 ## Installation
 
