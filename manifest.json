@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension",
+  "description": "Injects a script into the current page",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
